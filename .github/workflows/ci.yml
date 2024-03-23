@@ -49,6 +49,7 @@ jobs:
           path: |
             build/outputs/apk/lawnWithQuickstep/release/*.apk
             build/outputs/mapping/lawnWithQuickstepRelease/mapping.txt
+
   check-style:
     runs-on: ubuntu-latest
     steps:
