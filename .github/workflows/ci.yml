@@ -23,6 +23,8 @@ on:
       - '**.md'
       - 'LICENSE'
       - 'NOTICE'
+  workflow_dispatch:
+  workflow_call:
 
 jobs:
   build:
